@@ -1,36 +1,34 @@
-import 'package:flutter/material.dart';
+// import 'package:flutter/material.dart';
 
-class History extends StatefulWidget {
-  final String inputText;
+// class demo extends StatefulWidget {
+//   const demo({super.key});
 
-  const History(this.inputText, {Key? key}) : super(key: key);
+//   @override
+//   State<demo> createState() => _demoState();
+// }
 
-  @override
-  State<History> createState() => _HistoryState();
-}
+// class _demoState extends State<demo> {
+//   @override
+//   Widget build(BuildContext context) {
+//     return Scaffold(
+//       appBar: AppBar(),
+//       body: FutureBuilder(
 
-class _HistoryState extends State<History> {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text('History'),
-      ),
-      body: Container(
-        width: 200,
-        height: 100,
-        color: Colors.white,
-        child: FittedBox(
-          fit: BoxFit.scaleDown,
-          child: Text(
-            widget.inputText,
-            style: const TextStyle(
-              fontSize: 20,
-            ),
-          ),
-        ),
-      ),
-    );
-  }
-}
+//         builder: 
+//       (context, snapshot) => 
 
+//       ListView.builder(
+//         itemCount: snapshot.data!.,
+//         shrinkWrap: true,
+//         scrollDirection: Axis.vertical,
+//         itemBuilder: 
+//       (context, index) {
+
+//         return 
+        
+
+//       },), future: null
+//       ,),
+//     );
+//   }
+// }

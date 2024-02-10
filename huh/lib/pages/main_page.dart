@@ -66,7 +66,7 @@ class _HeroPageState extends State<HeroPage> {
                     color: Colors.black.withOpacity(0.1), // Shadow color
                     spreadRadius: 5, // Spread radius
                     blurRadius: 7, // Blur radius
-                    offset: Offset(0, 3), // Offset in x and y directions
+                    offset: const Offset(0, 3), // Offset in x and y directions
                   ),
                 ],
                 borderRadius: BorderRadius.circular(32), // Rounded corners
@@ -150,12 +150,12 @@ Widget _buildCard1(String imagePath) {
         Image.asset(imagePath),
         Padding(
           padding: const EdgeInsets.all(50),
-          child: Container(
+          child: SizedBox(
             width: 295,
             child: ElevatedButton(
                 onPressed: () {},
                 style: ElevatedButton.styleFrom(
-                  primary: Colors.blue, // background color
+                  backgroundColor: Colors.blue, // background color
                 ),
                 child: const Text(
                   'Continue Browsing',

@@ -33,11 +33,11 @@ class LoginPage extends StatelessWidget {
                   obscureText: true,
                   decoration: const InputDecoration(labelText: "Password"),
                 ),
-                SizedBox(height: 25),
+                const SizedBox(height: 25),
                 ElevatedButton(
                   onPressed: () {},
                   style: TextButton.styleFrom(),
-                  child: Text("Login"),
+                  child: const Text("Login"),
                 )
               ]),
             )
